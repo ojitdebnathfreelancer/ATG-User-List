@@ -1,0 +1,51 @@
+.user-list {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.user-list .main-list {
+    height: 500px;
+    overflow-y: scroll;
+    padding: 10px;
+}
+
+.user-list .main-list .user {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-details {
+    width: 25%;
+}
+
+.user-details .detaisl {
+    border-radius: 10px;
+    background-color: #dadada;
+}
+
+.user-details .detaisl label,
+input,
+textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.user-details .detaisl textarea {
+    resize: none;
+}
+
+.active{
+    background-color: #d6d6d6;
+}
+
+@media (max-width:768px) {
+    .user-details {
+        width: 100%;
+    }
+}
